@@ -4,8 +4,8 @@ Quick start intructions:
 
 - Clone this repository - instruction on how to do that can be found [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
 - Once you have cloned the repository to your machine, open it up in your preferred IDE (we recommend [VSCode](https://code.visualstudio.com/)).
-- Download and Install NodeJs LTS version from [NodeJs Official Page](https://nodejs.org/en/download/).
-- Navigate to the root ./ directory of the project, run `yarn install` or `npm install` to install the project dependencies.
+- Download and install NodeJs LTS version from [NodeJs Official Page](https://nodejs.org/en/download/) if you do not already have it installed.
+- Navigate to the root ./ directory of the project, and run `yarn install` or `npm install` to install the project dependencies.
 - Run `npm run start` or `yarn run start` to start the webpage and visit `http://localhost:3000/` in your browser to see it up and running.
 
 ## Measuring the emissions of the page
@@ -14,7 +14,7 @@ You will need to use Chrome as your browser for this task.
 
 - To start measuring the emissions of your page please download our Sustainability Calculator Chrome extension - available [here](https://chrome.google.com/webstore/detail/sustainability-calculator/mdecmmmlfhgjmdhkginjjnpbnlobkhom/related).
 - You might find it useful to [pin the chrome extension to your toolbar](https://www.wikihow.com/Pin-Extensions-in-Chrome) while completing this task.
-- To measure the emissions associated with a webpage, open Sustainability Calculator Chrome extension and click 'start recording'. You can click 'pause recording' as soon as the page has fully reloaded.
+- To measure the emissions associated with a webpage, open the Sustainability Calculator Chrome extension and click 'start recording'.
 - Please test out the settings within the chrome extension, but only use the generic settings for the purposes of the task. The emissions associated with an average user will be what we are using for this task.
 
 ## How to improve the emissions score of your webpage
@@ -98,6 +98,8 @@ material-kit-2-react
     ├── package.json
     └── README.md
 ```
+
+This repository makes use of a template created by [Creative Tim](https://github.com/creativetimofficial/material-kit-react). 
 
 ## After the workshop
 
