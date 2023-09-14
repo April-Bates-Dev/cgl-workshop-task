@@ -52,7 +52,6 @@ DefaultInfoCard.defaultProps = {
   direction: "left",
   small: false,
 };
-
 // Typechecking props for the DefaultInfoCard
 DefaultInfoCard.propTypes = {
   color: PropTypes.oneOf([
